@@ -1,15 +1,20 @@
 <script setup>
-import HeaderVue from './components/Header.vue';
-import { RouterLink, RouterView } from 'vue-router'
-import Pezao from './components/pezao.vue'
+import HeaderApi from './components/HeaderApi.vue';
+import { RouterView } from 'vue-router'
+import PezaoApi from './components/PezaoApi.vue'
 </script>
 
 <template>
-<HeaderVue></HeaderVue>
+<HeaderApi></HeaderApi>
 <RouterView></RouterView>
-<Pezao></Pezao>
+<PezaoApi></PezaoApi>
+
 </template>
 
-<style scoped>
+<style>
+body {
+    display: center;
+    justify-content: center; 
+}
 
 </style>

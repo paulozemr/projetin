@@ -9,7 +9,9 @@
   <footer id="sticky-footer " class="flex-shrink-0 py-4 bg-dark text-white-50">
     <div class="container text-center text-white ">
         © 2022 Copyright:  <a class="text-white" href="https://github.com/paulozemr">Paulo Zem</a>
-    </div>
+            &
+            <a class="text-white" href="https://github.com/eronzin13">Eron Tiago</a>
+      </div>
   </footer>
 </body>
 </template>
