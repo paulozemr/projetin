@@ -1,14 +1,14 @@
 <template>
     <nav class="navbar navbar-expand-lg text-white navbar-white bg-dark">
   <div class="container-fluid text-white">
-    <a id="coisaboa" class="navbar-brand text-white"  href="#">Joguinhos</a>
+    <a id="coisaboa" class="navbar-brand text-white"  href="#">Metaview</a>
     <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          <a class="nav-link active text-white" aria-current="page" href="/casa">hihiha</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white" href="https://www.youtube.com/watch?v=3X-iqFRGqbc&ab_channel=swizzdizzy">???</a>
@@ -27,6 +27,9 @@
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="/about">abaut</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -34,8 +37,6 @@
 </template>
 <style scoped>
 #coisaboa {
-    background-color: darkblue;
-    border: 1px solid darkblue;
     border-radius: 10px;
 }
 

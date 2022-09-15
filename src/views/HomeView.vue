@@ -4,10 +4,11 @@
 <template>
    <div class="container-fluid">
     <div class="col-12 text-center">
-      <p>Ta procurando aquele joguinho antigo?</p>
-      <h1>Joguinhos!</h1>
-      <p>Criado por Paulo Zem usando emuladores IFRAME.</p>
-      <p><img src="@/assets/vue3-logo.png"></p>
+      <p>Sua review online rapida</p>
+      <h1>Metaview</h1>
+      <p>Criado por pjrz.</p>
+      <h5>Usando:</h5>
+      <p><img src="@/assets/vuejs-ar21.png"></p>
     </div>
   </div>
 </template>
@@ -21,6 +22,10 @@
 }
 .col-12 h1 {
   font-size: 50px;
+}
+img {
+  height: 300px;
+
 }
 </style>
 
