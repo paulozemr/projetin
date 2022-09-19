@@ -2,45 +2,38 @@
 import ContentApi from "../components/ContentApi.vue";
 </script>
 
-
 <template>
-   <div class="container-fluid">
-    <div class="col-12 text-center">
-      <p>Sua review online rapida</p>
-      <h1>Metaview</h1>
-      <p>Criado por Paulo José e Eron Tiago</p>
-      <h5>Usando:</h5>
-      <p><img src="@/assets/vuejs-ar21.png"></p>
-    </div>
-  </div>
+  <h3>Metaview</h3>
+  <div class="input-group">
+  <input type="search" style="max-width: 600px;" class="form-control rounded" placeholder="Procure aqui seu filme" aria-label="Search" aria-describedby="search-addon" />
+  <button type="button" class="btn btn-primary">Clique aqui</button>
+</div>
   <div class="container">
-
-      <ContentApi></ContentApi>
-      <ContentApi></ContentApi>
-      <ContentApi></ContentApi>
-      <ContentApi></ContentApi>
+    <ContentApi></ContentApi>
+    <ContentApi></ContentApi>
+    <ContentApi></ContentApi>
+    <ContentApi></ContentApi>
   </div>
 </template>
 
 <style scoped>
-.container-fluid {
-  margin-bottom: 75px;
-}
-.col-12 {
-  margin-top: 50px;
-}
-.col-12 h1 {
-  font-size: 50px;
-}
-img {
-  height: 300px;
-
-}
 .container {
   display: flex;
   flex-wrap: wrap;
-  align-content: center; 
-  justify-content: center; 
+  align-content: center;
+  justify-content: center;
+}
+.input-group{
+  margin-bottom: 65px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;  
+  margin-bottom: 20px;
 }
 </style>
-
